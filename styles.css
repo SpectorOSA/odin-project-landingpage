@@ -38,8 +38,11 @@
 /* SECTION 1 */
 
 .img-placeholder {
-    background-color: gray;
+    background-color: #E5E7EB;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
@@ -141,21 +144,24 @@
 }
 
 /* SECTION 4 */
-
 .section-4 {
-    padding: 100px 200px;
-
+    margin: 100px 0px;
+    padding: 60px 200px;
+    background-color: #3883F6;
     color: #E5E7EB;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 .btn2 {
-    padding: 0px 50px;
+    font-weight: bold;
     border: solid 2px;
-    color: #E5E7EB;
+    background-color: #3883F6;
+    color: #F9FAF8;
     border-color: #F9FAF8;
     border-radius: 8px;
+    padding: 0px 50px;
 }
 
 /* FOOTER */
